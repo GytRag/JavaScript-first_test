@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* > body{
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+    min-width: 300px;
+}
+
+* > nav, * > section {
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+}
+
+.grow-1 {
+    flex: 1;
+}
+.grow-2 {
+    flex: 2;
+}
+
+nav svg {
+    cursor: pointer;
+    background-color: #f6f7f8;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+nav svg:hover {
+    background-color: #dadada;
+}
+
+/*------REGISTER PAGE + LOGIN PAGE----------*/
+.errorRegister, .errorLogin {
+    color: #a52828;
+}
+
+.inputRegister, .inputLogin {
+    max-width: 500px;
+}
+
+/*--------INDEX--PAGE--------------------*/
+
+.navEmail {
+    font-weight: bolder;
+    border-bottom: 1px solid #bdbdbd;
+    cursor: default;
+}
+
+.indexPost {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: auto;
+}
+
+
+.postCard p {
+    pointer-events: none;
+}
+
+.postCard {
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+.postCard:hover {
+    background-color: #dadada !important;
+}
+
+
+/*-------------SINGLE--POST--CARD----------------*/
+.singlePostCard {
+    cursor: default;
+}
+
+/*-------------GALLERY----------------*/
+.imgGallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: auto;
+}
+
+.imgGallery img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
+/*-------------CHAT----------------*/
+.chat {
+    max-width: 600px;
+}
+
+.chat small {
+    font-size: 12px;
+}
+
+.message p{
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+}
+
+
+/*-------------USER PROFILE----------------*/
+
+.userProfile {
+    max-width: 1000px;
+}
+
+
+.userProfile img {
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    width: 100%;
+}
+
+
